@@ -1,0 +1,130 @@
+/*author:tessy*/
+* {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+    font-family: candara;
+    font-size: 15px;
+}
+.main {
+    display: flex;
+    width: 100%;
+    background-color: rgb(246, 244, 244);
+}
+.container1 {
+    width: 15%;
+    background-color: #eeeef1;
+}
+.con1,
+.con2 {
+    padding: 15px;
+    align-content: center;
+}
+.logoimg {
+    width: 100%;
+}
+.nb1,
+.nb2,
+.nb3 {
+    margin: auto;
+}
+a {
+    text-decoration: none;
+}
+.container2 {
+    width: 100%;
+    /* padding: 5px;
+    margin: 10px; */
+    border: 1px groove;
+}
+.top {
+    display: flex;
+    align-items: center;
+}
+.lp1 {
+    text-align: right;
+    margin-top: 5px;
+}
+.lp2 {
+    padding: 3px;
+}
+.lp3 {
+    padding: 3px;
+    margin-left: 50%;
+    gap: 2px;
+}
+.talk {
+    padding: 2px;
+}
+.view,
+.talk {
+    background-color: #d8dddf;
+    border-left: 1px solid;
+    border-right: 1px solid;
+    border-bottom: 1px solid;
+    border-color: #8da8b1;
+}
+.welcome {
+    text-align: center;
+    background-color: #f3f3f6;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 10px;
+    border: 1px solid rgb(205, 200, 200);
+    justify-content: space-around;
+}
+.w1 {
+    font-size: 30px;
+}
+.wlink {
+    font-size: 100%;
+}
+.article {
+    display: flex;
+    gap: 10px;
+    width: 100%;
+    margin: 10px;
+}
+.art1 {
+    width: 100%;
+    padding: 20px;
+    background-color: rgb(236, 223, 236);
+    border: 1px solid;
+    border-color: #000;
+}
+.art2 {
+    width: 100%;
+    padding: 20px;
+    margin-right: 20px;
+    background-color: #c4e3c7;
+    border: 1px solid;
+    border-color: #000;
+}
+.arthead {
+    margin: 5px;
+    padding: 8px;
+    background-color: rgb(170, 204, 215);
+    border: 1px solid;
+    border-color: black;
+}
+.photo1 {
+    width: 70%;
+    height: 50%;
+    float: left;
+}
+.photo2 {
+    width: 70%;
+    height: 50%;
+    float: right;
+}
+img {
+    width: 100px;
+    margin-left: 15px;
+}
+.foot {
+    background-color: #eeeef1;
+}
+.fpara {
+    text-align: left;
+    margin-left: 15%;
+}
